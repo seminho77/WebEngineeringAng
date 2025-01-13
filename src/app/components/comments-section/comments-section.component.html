@@ -1,0 +1,78 @@
+<div class="comments">
+  <button
+    class="show-hide"
+    [attr.aria-expanded]="showComments"
+    (click)="toggleComments()"
+    aria-controls="comment-wrapper"
+  >
+    {{ showComments ? 'Hide comments' : 'Show comments' }}
+  </button>
+
+  <div
+    id="comment-wrapper"
+    [hidden]="!showComments"
+    [attr.aria-hidden]="!showComments"
+    class="comment-wrapper"
+  >
+    <h3>Add comment</h3>
+
+    <form class="comment-form" (ngSubmit)="onSubmit()">
+      <div class="flex-pair">
+        <label for="name">Your name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          [(ngModel)]="nameInput"
+          placeholder="Enter your name"
+          aria-describedby="error-message"
+          required
+        />
+      </div>
+      <div class="flex-pair">
+        <label for="comment">Your comment:</label>
+        <input
+          type="text"
+          name="comment"
+          id="comment"
+          [(ngModel)]="commentInput"
+          placeholder="Enter your comment"
+          aria-describedby="error-message"
+          required
+        />
+      </div>
+
+
+      <div>
+        <input
+          type="submit"
+          value="Submit comment"
+          aria-label="Submit your comment"
+        />
+      </div>
+    </form>
+
+    <!-- Error message for accessibility -->
+    <p
+      *ngIf="errorMessage"
+      id="error-message"
+      role="alert"
+      aria-live="assertive"
+      class="error"
+      style="color: red"
+      clas
+    >
+      {{ errorMessage }}
+    </p>
+
+    <h3>Comments</h3>
+    <ul class="comment-container">
+      <li *ngFor="let c of comments">
+        <p>
+          <strong>{{ c.name }}</strong>
+        </p>
+        <p>{{ c.text }}</p>
+      </li>
+    </ul>
+  </div>
+</div>

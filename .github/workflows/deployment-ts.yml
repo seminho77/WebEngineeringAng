@@ -1,0 +1,36 @@
+name: WebEngineeringAng Deployment Workflow
+
+on:
+  push:
+    branches:
+      - deployment  # The branch you use for production/deployment
+
+jobs:
+  setup-and-test:
+    uses: seminho77/WebEngineeringAng/.github/workflows/setup-and-test.yml@deployment
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    needs: setup-and-test
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/web-engineering-ang/browser
+          force_orphan: true

@@ -1,0 +1,39 @@
+/* More Bears Section */
+.more_bears {
+  h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .bear {
+    margin-bottom: 1.5rem;
+
+    h4 {
+      font-size: 1.3rem;
+      color: #333;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    &-name {
+      color: black;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 11.7px;
+      font-weight: 700;
+      margin: 0.5em 0;
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}

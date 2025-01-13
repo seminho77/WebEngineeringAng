@@ -1,0 +1,28 @@
+name: WebEngineeringAng Setup and Test Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  setup-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linter
+        run: npm run lint
+
+      - name: Run tests
+        env:
+          CHROME_BIN: "/usr/bin/google-chrome"
+        run: npm run test
