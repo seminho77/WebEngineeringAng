@@ -21,25 +21,33 @@ export class BearService {
       .set('title', title)
       .set('section', section.toString());
 
-    return this.http.get<{ wikitext: string }>(`${this.BACKEND_URL}/bears`, { params }).pipe(
-      map((res) => res.wikitext),
-      catchError((err) => {
-        console.error('Error fetching bear data from backend:', err);
-        return throwError(() => new Error('Failed to fetch bear data from backend'));
-      })
-    );
+    return this.http
+      .get<{ wikitext: string }>(`${this.BACKEND_URL}/bears`, { params })
+      .pipe(
+        map((res) => res.wikitext),
+        catchError((err) => {
+          console.error('Error fetching bear data from backend:', err);
+          return throwError(
+            () => new Error('Failed to fetch bear data from backend')
+          );
+        })
+      );
   }
 
   fetchImageUrl(fileName: string): Observable<string> {
     const params = new HttpParams().set('fileName', fileName);
 
-    return this.http.get<{ url: string }>(`${this.BACKEND_URL}/images`, { params }).pipe(
-      map((res) => res.url),
-      catchError((err) => {
-        console.error('Error fetching image URL from backend:', err);
-        return throwError(() => new Error('Failed to fetch image data from backend'));
-      })
-    );
+    return this.http
+      .get<{ url: string }>(`${this.BACKEND_URL}/images`, { params })
+      .pipe(
+        map((res) => res.url),
+        catchError((err) => {
+          console.error('Error fetching image URL from backend:', err);
+          return throwError(
+            () => new Error('Failed to fetch image data from backend')
+          );
+        })
+      );
   }
 
   extractBearData(wikitext: string): Observable<Bear[]> {

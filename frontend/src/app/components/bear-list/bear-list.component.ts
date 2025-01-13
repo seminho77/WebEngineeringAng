@@ -22,13 +22,14 @@ export class BearListComponent implements OnInit {
           },
           error: (err: Error) => {
             console.error('Error extracting bear data:', err);
-           this.errorMessage = 'Unable to load bear details. Please try again later.';
+            this.errorMessage =
+              'Unable to load bear details. Please try again later.';
           },
         });
       },
       error: (err: Error) => {
         console.error('Error fetching wikitext:', err);
-       this.errorMessage = 'Unable to retrieve data. Please try again later.';
+        this.errorMessage = 'Unable to retrieve data. Please try again later.';
       },
     });
   }

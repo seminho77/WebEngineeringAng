@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823fa417-1022-45cb-b720-a5e199747112" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deployment-ts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/development.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/setup-and-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/bear.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/bear.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/urban-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/wild-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/main-HYWHJUOH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/polyfills-FFHMD2TL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/styles-3GZRV3ZH.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/bear-list/bear-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/bear-list/bear-list.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/bear-list/bear-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/comments-section/comments-section.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/comments-section/comments-section.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/comments-section/comments-section.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/bear.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/bear-data.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/bear-data.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/utils/utils.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/utils/utils.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bear.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bear.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/urban-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/wild-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
-    </list>
+    <list default="true" id="823fa417-1022-45cb-b720-a5e199747112" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
