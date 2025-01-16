@@ -1,4 +1,4 @@
-# WebEngineeringAng# Web Engineering Project
+# Web Engineering Project
 
 This repository contains the frontend and backend of the Web Engineering project. The frontend is built with Angular, and the backend is built with Node.js and Express.js. The project is structured across multiple branches for development, deployment, and Docker integration.
 
