@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --configuration production --output-path=dist/web-engineering-ang --base-href /WebEngineeringAng/",
+    "start": "ng serve --host 0.0.0.0",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",

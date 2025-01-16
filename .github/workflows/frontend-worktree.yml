@@ -3,7 +3,7 @@ name: WebEngineeringAng Full-Stack Workflow
 on:
   push:
     branches:
-      - full-stack
+      - frontend-worktree
 
 jobs:
   lint-and-test:
