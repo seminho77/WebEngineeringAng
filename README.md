@@ -43,9 +43,13 @@ This branch contains the Docker configuration files (`docker-compose.yml` and `d
 
 ### 5. **Docker-Configs**
 1. From branch "docker-configs" run following commands beforehand before being able to execute docker-compose yamls:
-git worktree add ../WebEngineeringAng-frontend frontend-worktree
-git worktree add ../WebEngineeringAng-backend backend-worktree
+
+#### git worktree add ../WebEngineeringAng-frontend frontend-worktree
+
+#### git worktree add ../WebEngineeringAng-backend backend-worktree
 
 2. Now the commands for docker can be executed:
-For development: docker-compose -f docker-compose.yml up --build
-For production: docker-compose -f docker-compose.prod.yml up --build
+
+#### For development: docker-compose -f docker-compose.yml up --build
+
+#### For production: docker-compose -f docker-compose.prod.yml up --build
