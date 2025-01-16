@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ../WebEngineeringAng-frontend
+      target: development
+    ports:
+      - "4200:4200" # Angular dev server
+    volumes:
+      - ../WebEngineeringAng-frontend:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+
+  backend:
+    build:
+      context: ../WebEngineeringAng-backend
+      target: development
+    ports:
+      - "5000:5000" # Backend API
+    volumes:
+      - ../WebEngineeringAng-backend:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+    command: npm run dev # "dev" script for backend development

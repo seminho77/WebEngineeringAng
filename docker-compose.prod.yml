@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ../WebEngineeringAng-frontend
+      target: production
+    ports:
+      - "80:80" # Serving frontend on port 80
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - backend
+    networks:
+      - webengineeringang-network
+
+  backend:
+    build:
+      context: ../WebEngineeringAng-backend
+      target: production
+    ports:
+      - "5000:5000" # Backend API
+    environment:
+      NODE_ENV: production
+    command: npm start # "start" script for backend production
+    networks:
+      - webengineeringang-network
+
+networks:
+  webengineeringang-network:
+    driver: bridge
