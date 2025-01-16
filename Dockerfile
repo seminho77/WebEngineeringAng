@@ -23,8 +23,9 @@ WORKDIR /usr/src/app
 
 # Install dependencies and build the app
 COPY package*.json ./
-RUN npm config set registry https://registry.npmjs.org/
-RUN npm install --verbose
+RUN npm install
+
+# Copy source code
 COPY . .
 
 # Run the Angular production build

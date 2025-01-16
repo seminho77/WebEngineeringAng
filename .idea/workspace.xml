@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823fa417-1022-45cb-b720-a5e199747112" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deployment-ts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/full-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/full-stack.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/bear.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/bear.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/urban-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/assets/wild-bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/main-HYWHJUOH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/polyfills-FFHMD2TL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/styles-3GZRV3ZH.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
